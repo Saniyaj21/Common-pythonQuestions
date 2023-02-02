@@ -1,5 +1,5 @@
 word = input("Enter a word : ")
-word.lower()
+word = word.lower()
 word_reverse = word[::-1] #it will reverse the word
 
 if word == word_reverse:
